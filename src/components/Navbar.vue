@@ -31,20 +31,20 @@
     <!-- Add the modifier "is-active" to display it on mobile -->
     <div class="nav-right nav-menu">
       <a class="nav-item is-tab is-hidden-mobile"
-         :class="{'is-active' : IsHomeActive}"
-         @click="setActiveHome"
+         :class="{'is-active' : this.activeTab === 'home'}"
+         @click="setActive('home')"
       >
         {{ home }}
       </a>
       <a class="nav-item is-tab is-hidden-mobile"
          :class="{'is-active' : IsTeamActive}"
-         @click="setActiveTeam"
+         @click="setActive('team')"
       >
         {{ team }}
       </a>
       <a class="nav-item is-tab is-hidden-mobile"
          :class="{'is-active' : IsServiceActive}"
-         @click="setActiveService"
+         @click="setActive('services')"
       >
         {{ services }}
       </a>
@@ -63,48 +63,31 @@
   </nav>
 </template>
 
-
-
+<!-------------------------------------------------------------------------------------------->
 
 
 <script>
-
-
   export default {
     name:'nav-menu',
     data () {
         return {
-            IsHomeActive: true,
-            IsTeamActive: false,
-            IsServiceActive: false,
             home: 'Startseite',
             team: 'Team',
             services: 'Leistungsspektrum',
-            activeTab: ''
+
+            activeTab: 'home'
         }
     },
     methods: {
       setActive: function (tab) {
-          this.activeTab = tab
-      },
-      setActiveTeam: function () {
-        this.activeTab = 'team' && (this.IsTeamActive = this.activeTab === 'team') &&
-          (this.IsHomeActive = this.activeTab === 'home') &&
-          (this.IsServiceActive = this.activeTab === 'services');
-      },
-
-      setActiveService: function () {
-        this.activeTab = 'services' && (this.IsServiceActive = this.activeTab === 'services') &&
-          (this.IsHomeActive = this.activeTab === 'home') &&
-          (this.IsTeamActive = this.activeTab === 'team');
+          this.activeTab = tab;
       }
     }
   }
-
-
-
 </script>
 
+
+<!-------------------------------------------------------------------------------------------->
 <style scoped>
 
   .nav-item a.is-tab.is-active, a.nav-item.is-tab.is-active {

@@ -21,10 +21,10 @@
       <file leaf-file-name="Navbar.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Navbar.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="88" column="8" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+            <state relative-caret-position="295">
+              <caret line="81" column="31" lean-forward="false" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
               <folding>
-                <element signature="e#1575#1581#0" expanded="true" />
+                <element signature="e#1601#1607#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -202,12 +202,12 @@
       <updated>1488883552304</updated>
       <workItem from="1488883555575" duration="14172000" />
       <workItem from="1489142244692" duration="18168000" />
-      <workItem from="1489178848510" duration="13039000" />
+      <workItem from="1489178848510" duration="14611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45379000" />
+    <option name="totallyTimeSpent" value="46951000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -257,7 +257,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1575#1581#0" expanded="true" />
+            <element signature="e#1601#1607#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -291,7 +291,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1575#1581#0" expanded="true" />
+            <element signature="e#1601#1607#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -504,6 +504,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -535,16 +536,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1860">
           <caret line="135" column="0" lean-forward="true" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#figure#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#figure#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#figure#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.png" />
     <entry file="file://$PROJECT_DIR$/src/components/Navbar.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="88" column="8" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+        <state relative-caret-position="295">
+          <caret line="81" column="31" lean-forward="false" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
           <folding>
-            <element signature="e#1575#1581#0" expanded="true" />
+            <element signature="e#1601#1607#0" expanded="true" />
           </folding>
         </state>
       </provider>
