@@ -95,6 +95,10 @@
     color: #C3982F;
   }
 
+  .nav-item a.is-tab:hover, a.nav-item.is-tab:hover {
+    border-bottom-color: #C3982F;
+  }
+
   .nav-item img {
     max-height: 5.75rem;
   }
