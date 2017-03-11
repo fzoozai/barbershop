@@ -4,7 +4,8 @@
     <navbar-section></navbar-section>
     <welcome-section></welcome-section>
     <team-section></team-section>
-    <about-section></about-section>
+    <service-section></service-section>
+    <footer-section></footer-section>
   </div>
 </template>
 

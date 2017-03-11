@@ -125,6 +125,8 @@
   h1 {
     text-align: center;
     font-size: 40px;
+    font-family: "Bodoni 72";
+    color: black;
   }
   .flex-container {
     display: flex;
