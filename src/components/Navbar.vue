@@ -37,13 +37,13 @@
         {{ home }}
       </a>
       <a class="nav-item is-tab is-hidden-mobile"
-         :class="{'is-active' : IsTeamActive}"
+         :class="{'is-active' : this.activeTab === 'team'}"
          @click="setActive('team')"
       >
         {{ team }}
       </a>
       <a class="nav-item is-tab is-hidden-mobile"
-         :class="{'is-active' : IsServiceActive}"
+         :class="{'is-active' : this.activeTab === 'services'}"
          @click="setActive('services')"
       >
         {{ services }}
