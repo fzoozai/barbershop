@@ -9,23 +9,15 @@
     <div class="nav-center">
       <a class="nav-item">
       <span class="icon">
-        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
       </span>
       </a>
       <a class="nav-item">
       <span class="icon">
-        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
       </span>
       </a>
     </div>
-
-    <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
-    <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
-    <span class="nav-toggle">
-    <span></span>
-    <span></span>
-    <span></span>
-  </span>
 
     <!-- This "nav-menu" is hidden on mobile -->
     <!-- Add the modifier "is-active" to display it on mobile -->
@@ -53,9 +45,8 @@
 
       <a class="button">
         <span class="icon">
-          <i class="fa fa-address-card" aria-hidden="true"></i>
+          <i class="fa fa-file-text" aria-hidden="true"></i>
         </span>
-        <span>&nbsp;by Kahled</span>
       </a>
 
     </span>
@@ -72,8 +63,8 @@
     data () {
         return {
             home: 'Startseite',
-            team: 'Team',
-            services: 'Leistungsspektrum',
+            team: 'Testfall exportieren',
+            services: 'Testfall importieren',
 
             activeTab: 'home'
         }
@@ -91,12 +82,12 @@
 <style scoped>
 
   .nav-item a.is-tab.is-active, a.nav-item.is-tab.is-active {
-    border-bottom: 3px solid #C3982F;
-    color: #C3982F;
+    border-bottom: 3px solid darkgrey;
+    color: darkgray;
   }
 
   .nav-item a.is-tab:hover, a.nav-item.is-tab:hover {
-    border-bottom-color: #C3982F;
+    border-bottom-color: darkgrey;
   }
 
   .nav-item img {

@@ -1,119 +1,62 @@
 <template>
   <div id="welcome">
-
-    <!-- swiper -->
-    <swiper :options="swiperOption">
-      <div class="parallax-bg" slot="parallax-bg" data-swiper-parallax="-23%"
-           style="background-image: url(); opacity: 1;">
+    <section class="hero is-fullheight is-black">
+      <div class="hero-head">
+        <div class="container">
+          <div class="tabs is-centered">
+            <ul>
+              <li><a></a></li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <swiper-slide>
-        <div class="title" data-swiper-parallax="-100">Herzlich Willkommen zu Prince of Bel Hair</div>
-        <br>
-        <div class="subtitle" data-swiper-parallax="-200">Wir freuen uns auf Ihren Besuch.</div>
-        <div class="text" data-swiper-parallax="-300">
-          <p></p>
+
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h3 class="title is-2">
+            <a style="font-family: 'Andale Mono'; font-size: 60px; color: darkgrey">
+
+
+
+              <div class="flexbox">
+                <div class="button is-large">Testdaten exportieren</div>
+                <div class="button is-large">Testdaten importieren</div>
+              </div>
+            </a>
+          </h3>
+          <h3 class="subtitle is-4" style="text-decoration: overline; padding-top: 30px; font-size: 25px; color: darkgrey"></h3>
         </div>
-      </swiper-slide>
-      <swiper-slide>
-        <div class="title" data-swiper-parallax="-100">Slide 2</div>
-        <div class="subtitle" data-swiper-parallax="-200"></div>
-        <div class="text" data-swiper-parallax="-300">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero. Aenean feugiat non eros quis feugiat.</p>
+      </div>
+
+      <div class="hero-foot">
+        <div class="container">
+          <div class="tabs is-centered">
+            <ul>
+              <li><a>And this at the bottom</a></li>
+            </ul>
+          </div>
         </div>
-      </swiper-slide>
-      <swiper-slide>
-        <div class="title" data-swiper-parallax="-100">Slide 3</div>
-        <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
-        <div class="text" data-swiper-parallax="-300">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero. Aenean feugiat non eros quis feugiat.</p>
-        </div>
-      </swiper-slide>
-      <div class="swiper-pagination swiper-pagination-white" slot="pagination"></div>
-      <div class="swiper-button-prev swiper-button-white" slot="button-prev"></div>
-      <div class="swiper-button-next swiper-button-white" slot="button-next"></div>
-    </swiper>
-
-
-
-
-
+      </div>
+    </section>
 
   </div>
 </template>
 
 <script>
 
-  import { swiper, swiperSlide } from 'vue-awesome-swiper';
-
   export default {
-    data() {
-      return {
-        swiperOption: {
-          pagination: '.swiper-pagination',
-          paginationClickable: true,
-          nextButton: '.swiper-button-next',
-          prevButton: '.swiper-button-prev',
-          parallax: true,
-          speed: 600,
-          autoplay: 5000,
-          loop: true,
-        }
-      }
-    },
-    components: {
-      swiper,
-      swiperSlide
-    }
   }
+
 </script>
 
 <style scoped>
   #welcome {
-    margin-top: 20px;
-    text-align: center;
-    background-color: #1B1C1D;
+    margin-top: 7px;
   }
 
-  .swiper-slide {
-    font-size: 18px;
-    color:#fff;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 60px 60px;
-    background-color: transparent!important;
-    justify-content: space-around!important;
+  .flexbox {
+    display: flex;
+    justify-content: space-around;
   }
-  .parallax-bg {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 130%;
-    height: 100%;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center;
-  }
-  .swiper-slide .title {
-    z-index: 101;
-    font-size: 51px;
-    font-weight: 700px;
-    color: #C3982F;
-    font-family: "Bodoni 72";
-  }
-  .swiper-slide .subtitle {
-    font-size: 26px;
-    text-decoration: overline;
-    color: #C3982F;
-    z-index: 102;
-  }
-  .swiper-slide .text {
-    font-size: 14px;
-    max-width: 400px;
-    line-height: 1.3;
-    color: white;
-    z-index: 102;
-    background: rgba(220, 189, 111, 0.3);
-  }
-
 
 </style>
